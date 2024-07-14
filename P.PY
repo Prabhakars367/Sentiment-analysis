@@ -4,7 +4,7 @@ import emoji
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 import matplotlib.pyplot as plt
 
-API_KEY = 'AIzaSyAy_Xd8I6JJl_ZLsFEsod9cMd8m_tZ56lw'
+API_KEY = ''## Add your api key here
 
 # Initialize YouTube API
 youtube = build('youtube', 'v3', developerKey=API_KEY)
